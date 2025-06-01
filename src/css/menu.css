@@ -41,7 +41,7 @@
 }
 
 .header .hamburguer:before,
-.header .hamburguer::after{
+.header .hamburguer:after{
     background-color: #000;
     content: "";
     display: block;
@@ -107,7 +107,7 @@
     .header nav ul a{
         display: block;
         text-align: center;
-        padding: 20px
+        padding: 20px;
 
     }
 }
